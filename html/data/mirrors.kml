@@ -1,0 +1,2538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name>Debian Mirrors List</name>
+  <open>1</open>
+  <Style id="primary">
+    <IconStyle>
+      <Icon>
+        <href>http://ircbots.nanonanonano.net/mirrormap/icons/server-debian.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+  </Style>
+  <Style id="secondary">
+    <IconStyle>
+      <Icon>
+        <href>http://ircbots.nanonanonano.net/mirrormap/icons/server-secondary.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+  </Style>
+  <Style id="mixed">
+    <IconStyle>
+      <Icon>
+        <href>http://ircbots.nanonanonano.net/mirrormap/icons/server-multiple-mixed.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+  </Style>
+  <Style id="secondarymulti">
+    <IconStyle>
+      <Icon>
+        <href>http://ircbots.nanonanonano.net/mirrormap/icons/server-multiple-secondary.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+  </Style>
+  <Folder>
+    <Placemark>
+      <name>Secondary mirror ftp.lug.udel.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.lug.udel.edu/pub/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Newark, Delaware, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-75.5970,39.5645,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror sft.if.usp.br</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://sft.if.usp.br/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Sao Paulo, Sao Paulo, Brazil (BR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-46.6658,-23.4733,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Korea, Republic of (KR)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.kr.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.kr.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.daum.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.daum.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Korea, Republic of (KR)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>127.5000,37.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.accretive-networks.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.accretive-networks.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Seattle, Washington, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-122.3480,47.6145,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.ccc.uba.ar</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ccc.uba.ar/pub/linux/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Buenos Aires, Distrito Federal, Argentina (AR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-58.6725,-34.5875,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.mirror.tn</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.tn/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Tunisia (TN)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>9.0000,34.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.port80.se</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.port80.se/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Norway (NO)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>10.0000,62.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.xenir.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.xenir.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <div>Location: Charlottesville, Virginia, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-78.6086,37.9876,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.ipacct.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ipacct.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Bulgaria (BG)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>25.0000,43.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Budapest, Budapest, Hungary (HU)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.hu.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.hu.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.kfki.hu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.kfki.hu/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.bme.hu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.bme.hu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirrors.crysys.hu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirrors.crysys.hu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.ro.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ro.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Budapest, Budapest, Hungary (HU)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>19.0833,47.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.tu-graz.ac.at</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.tu-graz.ac.at/mirror/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Graz, Steiermark, Austria (AT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>15.4500,47.0667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.securedservers.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.securedservers.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Tempe, Arizona, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-111.9171,33.4357,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.si.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.si.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Slovenia (SI)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>15.0000,46.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.melbourne.co.uk</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.melbourne.co.uk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386</div>
+              <div>Location: Melbourne, Derbyshire, United Kingdom (GB)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-1.4333,52.8167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.be.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.be.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Champagne, Luxembourg, Belgium (BE)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>5.4500,50.3000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Riga, Riga, Latvia (LV)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.koyanet.lv</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.koyanet.lv/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.linux.edu.lv</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.linux.edu.lv/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Riga, Riga, Latvia (LV)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>24.1000,56.9500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.uni-erlangen.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uni-erlangen.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Erlangen, Bayern, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>11.0039,49.5897,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: New Zealand (NZ)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.nz.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.nz.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.ihug.co.nz</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ihug.co.nz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: New Zealand (NZ)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>174.0000,-41.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.eftel.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.eftel.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Melbourne, Victoria, Australia (AU)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>144.9634,-37.8139,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.switch.ch</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.switch.ch/ftp/mirror/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Dietikon, Zurich, Switzerland (CH)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>8.3950,47.4044,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.tu-chemnitz.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.tu-chemnitz.de/pub/linux/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Chemnitz, Sachsen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>12.9167,50.8333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.vectranet.pl</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.vectranet.pl/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Bialystok, Podlaskie, Poland (PL)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>23.1500,53.1333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.iitm.ac.in</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.iitm.ac.in/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Madras, Tamil Nadu, India (IN)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>80.2833,13.0833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.ece.ubc.ca</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.ece.ubc.ca/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Vancouver, British Columbia, Canada (CA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-123.1333,49.2500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror kambing.ui.ac.id</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://kambing.ui.ac.id/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 sparc</div>
+              <div>Location: Depok, Jawa Barat, Indonesia (ID)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>106.4989,-6.3433,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Umea, Vasterbottens Lan, Sweden (SE)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.dk.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.dk.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.dk.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.dk.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.se.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.se.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.se.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.se.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.bsnet.se</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.bsnet.se/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.bsnet.se</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.bsnet.se/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: Umea, Vasterbottens Lan, Sweden (SE)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>20.2500,63.8333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.units.it</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.units.it/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Trieste, Friuli-Venezia Giulia, Italy (IT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>13.7800,45.6486,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.ie.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ie.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Ireland (IE)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>-8.0000,53.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.uchicago.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.uchicago.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Chicago, Illinois, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-87.6027,41.7804,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.hosteurope.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.hosteurope.de/pub/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Host, Nordrhein-Westfalen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>6.1833,51.6500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Hamilton, Ontario, Canada (CA)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.ca.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ca.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirror.rafal.ca</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.rafal.ca/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Hamilton, Ontario, Canada (CA)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-79.8333,43.2500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.cc.uoc.gr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.cc.uoc.gr/mirrors/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Heraklion, Iraklion, Greece (GR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>25.1306,35.3250,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.csclub.uwaterloo.ca</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.csclub.uwaterloo.ca/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Waterloo, Ontario, Canada (CA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-80.5333,43.4667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Binghamton, New York, United States (US)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.cs.binghamton.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cs.binghamton.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.cs.binghamton.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cs.binghamton.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.cs.binghamton.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cs.binghamton.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.cs.binghamton.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cs.binghamton.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Binghamton, New York, United States (US)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-75.9180,42.0987,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Oxford, Oxfordshire, United Kingdom (GB)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.ox.ac.uk</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.ox.ac.uk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.ox.ac.uk</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.ox.ac.uk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Oxford, Oxfordshire, United Kingdom (GB)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-1.2500,51.7500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.unal.edu.co</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.unal.edu.co/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Bogota, Distrito Especial, Colombia (CO)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-74.0628,4.6492,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.bloomu.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.bloomu.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Bloomsburg, Pennsylvania, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-76.4701,41.0530,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.ucr.ac.cr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.ucr.ac.cr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: San Jose, San Jose, Costa Rica (CR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-84.0833,9.9333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.zcu.cz</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.zcu.cz/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Plzen, Plzensky kraj, Czech Republic (CZ)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>13.3667,49.7500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.nctu.edu.tw</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.nctu.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Hsinchu, T'ai-wan, Taiwan (TW)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>120.9714,24.8047,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Vilnius, Vilniaus Apskritis, Lithuania (LT)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.lt.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.lt.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.balt.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.balt.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel i386 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirror.vu.lt</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.vu.lt/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Vilnius, Vilniaus Apskritis, Lithuania (LT)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>25.3167,54.6833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp3.nrc.ca</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp3.nrc.ca/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Ottawa, Ontario, Canada (CA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-75.7000,45.4167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.acm.jhu.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.acm.jhu.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Baltimore, Maryland, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-76.5967,39.3288,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.man.poznan.pl</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.man.poznan.pl/pub/linux/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Poznan, Wielkopolskie, Poland (PL)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>16.9667,52.4167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Porto, Porto, Portugal (PT)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.fe.up.pt</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.fe.up.pt/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.dcc.fc.up.pt</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.dcc.fc.up.pt/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 powerpc</div>
+              <hr />Location: Porto, Porto, Portugal (PT)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-8.6110,41.1496,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.its.dal.ca</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.its.dal.ca/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 sparc</div>
+              <div>Location: Halifax, Nova Scotia, Canada (CA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-63.6000,44.6500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Bonn, Nordrhein-Westfalen, Germany (DE)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.stw-bonn.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.stw-bonn.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.stw-bonn.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.stw-bonn.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr />Location: Bonn, Nordrhein-Westfalen, Germany (DE)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>7.1000,50.7333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.datacenter.by</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.datacenter.by/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Minsk, Minsk, Belarus (BY)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>27.5667,53.9000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Iceland (IS)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.is.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.is.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.simnet.is</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.simnet.is/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Iceland (IS)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-18.0000,65.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.cites.illinois.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cites.illinois.edu/pub/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Urbana, Illinois, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-88.2123,40.1095,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.usu.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.usu.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 armel i386 powerpc sparc</div>
+              <div>Location: Logan, Utah, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-111.8966,41.6412,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.geekbone.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.geekbone.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Scottsdale, Arizona, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-111.8906,33.6119,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Romania (RO)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.lug.ro</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.lug.ro/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.xservers.ro</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.xservers.ro/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Romania (RO)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>25.0000,46.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Belgium (BE)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.easynet.be</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.easynet.be/ftp/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.belnet.be</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.belnet.be/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.debian.skynet.be</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.debian.skynet.be/ftp/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Belgium (BE)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>4.0000,50.8333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: New York, New York, United States (US)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.us.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.us.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.mycre.ws</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.mycre.ws/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: New York, New York, United States (US)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-74.0060,40.7143,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.nc.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.nc.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Noumea, , New Caledonia (NC)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>166.4500,-22.2667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: France (FR)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.fr.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.fr.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.polytech-lille.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.polytech-lille.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.ovh.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.ovh.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.ovh.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.ovh.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.nerim.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.nerim.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.crihan.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.crihan.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.debian.ikoula.com</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.debian.ikoula.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirror.inra.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.inra.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.univ-pau.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.univ-pau.fr/linux/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.revolsys.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.revolsys.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.advalem.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.advalem.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>deb-mir1.naitways.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://deb-mir1.naitways.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.bononia.it</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.bononia.it/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 armel i386 powerpc</div>
+              <hr />Location: France (FR)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>2.0000,46.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.uni.edu.ni</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.uni.edu.ni/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Nindiri, Masaya, Nicaragua (NI)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-86.1194,12.0047,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.otenet.gr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.otenet.gr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Greece (GR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>22.0000,39.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.nara.wide.ad.jp</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.nara.wide.ad.jp/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Tokyo, Tokyo, Japan (JP)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>139.7514,35.6850,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Mexico, Distrito Federal, Mexico (MX)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.mx.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.mx.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mmc.geofisica.unam.mx</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mmc.geofisica.unam.mx/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr />Location: Mexico, Distrito Federal, Mexico (MX)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-99.1386,19.4342,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.univ-reims.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.univ-reims.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Reims, Champagne-Ardenne, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>4.0333,49.2500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Hefei, Anhui, China (CN)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.cn.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.cn.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.ustc.edu.cn</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ustc.edu.cn/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Hefei, Anhui, China (CN)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>117.2808,31.8639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Hungary (HU)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.sth.sze.hu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.sth.sze.hu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.uni-pannon.hu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uni-pannon.hu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64</div>
+              <hr />Location: Hungary (HU)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>20.0000,47.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.uni-kl.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uni-kl.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Kaiserslautern, Rheinland-Pfalz, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>7.7500,49.4500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.univ-nantes.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.univ-nantes.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Nantes, Pays de la Loire, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-1.5524,47.2165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.icm.edu.pl</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.icm.edu.pl/pub/Linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Warsaw, Mazowieckie, Poland (PL)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>21.0000,52.2500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.arnes.si</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.arnes.si/pub/packages/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Ljubljana, Bohinj Commune, Slovenia (SI)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>14.5144,46.0553,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.pl.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.pl.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Gdansk, Pomorskie, Poland (PL)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>18.6583,54.3608,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Madrid, Madrid, Spain (ES)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.rediris.es</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.rediris.es/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gul.uc3m.es</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gul.uc3m.es/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.grn.cat</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.grn.cat/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <hr />Location: Madrid, Madrid, Spain (ES)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-3.6922,40.4086,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Ukraine (UA)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.osdn.org.ua</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.osdn.org.ua/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.3logic.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.3logic.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: Ukraine (UA)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>32.0000,49.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror kebo.vlsm.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://kebo.vlsm.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 powerpc</div>
+              <div>Location: Surabaya, Jawa Timur, Indonesia (ID)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>112.7508,-7.2492,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.mipt.ru</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.mipt.ru/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Dolgoprudnyy, Moskva, Russian Federation (RU)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>37.5606,55.9041,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.mines.inpl-nancy.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mines.inpl-nancy.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Vandoeuvre, Lorraine, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>6.1783,48.6621,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Ankara, Ankara, Turkey (TR)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.tr.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.tr.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.linux.org.tr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.linux.org.tr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.metu.edu.tr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.metu.edu.tr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.gnu.gen.tr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.gnu.gen.tr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: Ankara, Ankara, Turkey (TR)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>32.8403,39.9117,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.debian.chuvsu.ru</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.debian.chuvsu.ru/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Cheboksary, Chuvashia, Russian Federation (RU)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>47.2519,56.1322,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Frankfurt Am Main, Hessen, Germany (DE)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.informatik.uni-frankfurt.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.informatik.uni-frankfurt.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.plusline.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.plusline.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Frankfurt Am Main, Hessen, Germany (DE)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>8.6833,50.1167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.mirror.ac.za</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.ac.za/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Wynberg, Western Cape, South Africa (ZA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>18.4000,-33.9833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.networx-bg.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.networx-bg.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 armel i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Rousse, Ruse, Bulgaria (BG)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>25.9708,43.8564,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Taiwan (TW)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>opensource.nchc.org.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://opensource.nchc.org.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.csie.nctu.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.csie.nctu.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Taiwan (TW)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>121.0000,23.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Zurich, Zurich, Switzerland (CH)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.ch.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ch.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.csg.uzh.ch</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.csg.uzh.ch/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr />Location: Zurich, Zurich, Switzerland (CH)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>8.5500,47.3667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Atlanta, Georgia, United States (US)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.us.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.us.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gtlib.gatech.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gtlib.gatech.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gtlib.gatech.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gtlib.gatech.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gtlib.gatech.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gtlib.gatech.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gtlib.gatech.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gtlib.gatech.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gtlib.gatech.edu</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gtlib.gatech.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.mycre.ws</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.mycre.ws/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Atlanta, Georgia, United States (US)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-84.3980,33.7763,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.irb.hr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.irb.hr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hurd-i386 i386 ia64 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Zagreb, Grad Zagreb, Croatia (HR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>16.0000,45.8000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.man.szczecin.pl</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.man.szczecin.pl/pub/Linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Szczecin, Zachodniopomorskie, Poland (PL)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>14.5939,53.4395,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Santiago, Region Metropolitana, Chile (CL)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.cl.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.cl.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.netlinux.cl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.netlinux.cl/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Santiago, Region Metropolitana, Chile (CL)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-70.6667,-33.4500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.is.co.za</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.is.co.za/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 mips mipsel powerpc s390 sparc</div>
+              <div>Location: South Africa (ZA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>24.0000,-29.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mg.debian.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mg.debian.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Antananarivo, Antananarivo, Madagascar (MG)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>47.5167,-18.9167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror giano.com.dist.unige.it</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://giano.com.dist.unige.it/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel i386</div>
+              <div>Location: Genova, Liguria, Italy (IT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>8.9500,44.4167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.uni-bayreuth.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uni-bayreuth.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Bayreuth, Bayern, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>11.5783,49.9481,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.tu-clausthal.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.tu-clausthal.de/pub/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Clausthal, Niedersachsen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>10.3333,51.8000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.keystealth.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.keystealth.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: White Plains, New York, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-73.7580,41.0291,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror lug.mtu.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://lug.mtu.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc sparc</div>
+              <div>Location: Houghton, Michigan, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-88.6471,47.1544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.gr.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gr.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Athens, Attiki, Greece (GR)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>23.7333,37.9833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.utalca.cl</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.utalca.cl/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Chile (CL)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-71.0000,-30.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.cc.lehigh.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cc.lehigh.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Bethlehem, Pennsylvania, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-75.3547,40.5902,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.caliu.cat</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.caliu.cat/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <div>Location: Barcelona, Catalonia, Spain (ES)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>2.1741,41.3984,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.litnet.lt</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.litnet.lt/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Kaunas, Kauno Apskritis, Lithuania (LT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>23.9000,54.9000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.pt.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.pt.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Evora, Evora, Portugal (PT)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>-7.9000,38.5667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.torredehanoi.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.torredehanoi.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64</div>
+              <div>Location: Federal, Entre Rios, Argentina (AR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-58.7833,-30.9546,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.iut-bm.univ-fcomte.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.iut-bm.univ-fcomte.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Besancon, Franche-Comte, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>6.0182,47.2488,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Australia (AU)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.au.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.au.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.aarnet.edu.au</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.aarnet.edu.au/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.iinet.net.au</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.iinet.net.au/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.netspace.net.au</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.netspace.net.au/pub/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.waia.asn.au</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.waia.asn.au/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.transact.net.au</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.transact.net.au/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: Australia (AU)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>133.0000,-27.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Varna, Varna, Bulgaria (BG)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.telecoms.bg</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.telecoms.bg/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mnet.bg</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mnet.bg/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: Varna, Varna, Bulgaria (BG)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>27.9167,43.2167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.fdcservers.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.fdcservers.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Chicago, Illinois, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-87.6272,41.8776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.stream.uz</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.stream.uz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Uzbekistan (UZ)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>64.0000,41.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.cpsc.ucalgary.ca</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.cpsc.ucalgary.ca/mirror/debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Calgary, Alberta, Canada (CA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-114.0833,51.0833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Bristol, Bristol, City of, United Kingdom (GB)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>www.mirrorservice.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://www.mirrorservice.org/sites/ftp.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.mirrorservice.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.mirrorservice.org/sites/ftp.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Bristol, Bristol, City of, United Kingdom (GB)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-2.5833,51.4500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Japan (JP)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.hk.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.hk.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.dti.ad.jp</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.dti.ad.jp/pub/Linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>dennou-k.gfd-dennou.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://dennou-k.gfd-dennou.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.jaist.ac.jp</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.jaist.ac.jp/pub/Linux/Debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>dennou-h.gfd-dennou.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://dennou-h.gfd-dennou.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Japan (JP)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>138.0000,36.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.xmission.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.xmission.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Orem, Utah, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-111.6946,40.2969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp-stud.hs-esslingen.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp-stud.hs-esslingen.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Stuttgart, Baden-Wurttemberg, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>9.1833,48.7667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.cc.columbia.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.cc.columbia.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: New York, New York, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-73.9653,40.8006,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.seclan.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.seclan.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 powerpc</div>
+              <div>Location: Finland (FI)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>26.0000,64.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Valencia, Comunidad Valenciana, Spain (ES)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gva.es</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gva.es/mirror/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.gva.es</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.gva.es/mirror/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Valencia, Comunidad Valenciana, Spain (ES)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-0.3667,39.4667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror distro.ibiblio.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://distro.ibiblio.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Chapel Hill, North Carolina, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-79.1077,36.0525,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.cse.unsw.edu.au</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.cse.unsw.edu.au/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <div>Location: Sydney, New South Wales, Australia (AU)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>151.2055,-33.8615,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.monash.edu.au</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.monash.edu.au/pub/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Monash, South Australia, Australia (AU)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>140.5667,-34.2333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.corenetworks.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.corenetworks.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: East Lansing, Michigan, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-84.4839,42.7370,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Poland (PL)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>piotrkosoft.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://piotrkosoft.net/pub/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>piotrkosoft.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://piotrkosoft.net/pub/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: Poland (PL)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>20.0000,52.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Russian Federation (RU)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.ludost.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ludost.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: i386</div>
+              <hr /><div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.ru.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ru.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.nsu.ru</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.nsu.ru/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.corbina.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.corbina.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror2.corbina.ru</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror2.corbina.ru/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Russian Federation (RU)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>100.0000,60.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Fukuoka, Fukuoka, Japan (JP)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp2.jp.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp2.jp.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.jp.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.jp.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>dennou-q.gfd-dennou.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://dennou-q.gfd-dennou.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Fukuoka, Fukuoka, Japan (JP)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>136.9333,36.7000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.uni-koeln.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uni-koeln.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Bergisch Gladbach, Nordrhein-Westfalen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>7.1333,50.9833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.steadfast.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.steadfast.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Chicago, Illinois, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-87.6248,41.8471,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.usc.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.usc.edu/pub/linux/distributions/debian//pub/linux/distributions/debian/alpha wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Los Angeles, California, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-118.2987,33.7866,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.las.ic.unicamp.br</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.las.ic.unicamp.br/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 powerpc sparc</div>
+              <div>Location: Campinas, Sao Paulo, Brazil (BR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-47.0833,-22.9000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.riken.jp</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.riken.jp/Linux/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Wako, Saitama, Japan (JP)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>139.6233,35.7894,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.rrzn.uni-hannover.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.rrzn.uni-hannover.de/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64</div>
+              <div>Location: Hanover, Niedersachsen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>9.7167,52.3667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.funet.fi</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.funet.fi/pub/linux/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Espoo, Southern Finland, Finland (FI)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>24.6667,60.2167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Denmark (DK)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.telianet.dk</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.telianet.dk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 powerpc sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.rackhosting.com</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.rackhosting.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 sparc</div>
+              <hr />Location: Denmark (DK)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>10.0000,56.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Dresden, Sachsen, Germany (DE)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.de.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.de.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.cruisix.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cruisix.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 powerpc</div>
+              <hr />Location: Dresden, Sachsen, Germany (DE)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>13.7500,51.0500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.netvisao.pt</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.netvisao.pt/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Palmela, Setubal, Portugal (PT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-8.9013,38.5690,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Croatia (HR)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.hr.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.hr.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.carnet.hr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.carnet.hr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.iskon.hr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.iskon.hr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 s390</div>
+              <hr />Location: Croatia (HR)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>15.5000,45.1667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.man.ac.uk</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.man.ac.uk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Manchester, Manchester, United Kingdom (GB)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-2.2167,53.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.unesr.edu.ve</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.unesr.edu.ve/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Santa Fe, Barinas, Venezuela (VE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-70.0094,8.3694,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.neolabs.kz</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.neolabs.kz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Almaty, Almaty City, Kazakhstan (KZ)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>76.9500,43.2500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: San Francisco, California, United States (US)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.nl.kernel.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.nl.kernel.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.se.kernel.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.se.kernel.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.kernel.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.kernel.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: San Francisco, California, United States (US)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-122.3933,37.7697,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.md</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.md/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Moldova, Republic of (MD)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>29.0000,47.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.cse.iitk.ac.in</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.cse.iitk.ac.in/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Kanpur, Uttar Pradesh, India (IN)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>80.3500,26.4667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.mpi-sb.mpg.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.mpi-sb.mpg.de/pub/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Saarbrucken, Saarland, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>7.0000,49.2333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.ds.karen.hj.se</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ds.karen.hj.se/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Jonkoping, Jonkopings Lan, Sweden (SE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>14.1833,57.7833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Bangkok, Krung Thep, Thailand (TH)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.th.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.th.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.v6.coe.psu.ac.th</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.v6.coe.psu.ac.th/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.debianclub.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.debianclub.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.kku.ac.th</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.kku.ac.th/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Bangkok, Krung Thep, Thailand (TH)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>100.5014,13.7540,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.geeks.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.geeks.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Minneapolis, Minnesota, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-93.2582,45.0946,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.tummy.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.tummy.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Fort Collins, Colorado, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-105.0628,40.5195,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Moscow, Moscow City, Russian Federation (RU)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.psn.ru</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.psn.ru/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 hurd-i386 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.yandex.ru</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.yandex.ru/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Moscow, Moscow City, Russian Federation (RU)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>37.6156,55.7522,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.u-picardie.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.u-picardie.fr/mirror/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Amiens, Picardie, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>2.3000,49.9000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.mirohost.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.mirohost.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Kiev, Kyyiv, Ukraine (UA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>30.5167,50.4333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.res.um.edu.mt</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.res.um.edu.mt/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Msida, , Malta (MT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>14.4828,35.8925,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.nl.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.nl.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Enschede, Overijssel, Netherlands (NL)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>6.8912,52.2195,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Vienna, Wien, Austria (AT)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.at.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.at.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>gd.tuwien.ac.at</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://gd.tuwien.ac.at/opsys/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Vienna, Wien, Austria (AT)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>16.3667,48.2000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.uwsg.indiana.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uwsg.indiana.edu/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Bloomington, Indiana, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-86.4555,39.2499,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Lund, Skane Lan, Sweden (SE)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.lth.se</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.lth.se/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.df.lth.se</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.df.lth.se/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Lund, Skane Lan, Sweden (SE)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>13.1833,55.7000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.yorku.ca</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.yorku.ca/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Toronto, Ontario, Canada (CA)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-79.4167,43.6667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror repository.linux.pf</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://repository.linux.pf/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: French Polynesia (PF)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-140.0000,-15.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.cabletel.com.mk</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cabletel.com.mk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Skopje, Karpos, Macedonia (MK)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>21.4333,42.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Berlin, Berlin, Germany (DE)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.fu-berlin.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.fu-berlin.de/pub/unix/linux/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.informatik.hu-berlin.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.informatik.hu-berlin.de/pub/Linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.charite.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.charite.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr />Location: Berlin, Berlin, Germany (DE)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>13.4000,52.5167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.orion.rs</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.orion.rs/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Beograd, , Serbia (RS)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>20.4681,44.8186,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.eq.uc.pt</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.eq.uc.pt/software/Linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Coimbra, Coimbra, Portugal (PT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-8.4196,40.2056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.hmc.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.hmc.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hppa i386 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <div>Location: Claremont, California, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-117.7143,34.1223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirrors.modwest.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.modwest.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Missoula, Montana, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-113.8497,46.9402,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Amsterdam, Noord-Holland, Netherlands (NL)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.nluug.nl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.nluug.nl/pub/os/Linux/distr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.nluug.nl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.nluug.nl/pub/os/Linux/distr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.surfnet.nl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.surfnet.nl/os/Linux/distr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.surfnet.nl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.surfnet.nl/os/Linux/distr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.nl.leaseweb.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.nl.leaseweb.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Amsterdam, Noord-Holland, Netherlands (NL)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>4.9167,52.3500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.nus.edu.sg</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.nus.edu.sg/Debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Singapore, , Singapore (SG)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>103.8558,1.2931,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Beijing, Beijing, China (CN)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>www.anheng.com.cn</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://www.anheng.com.cn/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.bjtu.edu.cn</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.bjtu.edu.cn/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Beijing, Beijing, China (CN)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>116.3883,39.9289,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Czech Republic (CZ)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.cz.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.cz.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.superhosting.cz</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.superhosting.cz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Czech Republic (CZ)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>15.5000,49.7500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.fastbull.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.fastbull.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 powerpc</div>
+              <div>Location: Torino, Piemonte, Italy (IT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>7.6667,45.0500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.pucpr.br</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.pucpr.br/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386</div>
+              <div>Location: Curitiba, Parana, Brazil (BR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-49.2500,-25.4167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.ndlug.nd.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ndlug.nd.edu/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Notre Dame, Indiana, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-86.2501,41.7007,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Prague, Hlavni mesto Praha, Czech Republic (CZ)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.sh.cvut.cz</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.sh.cvut.cz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirror.web4u.cz</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.web4u.cz/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.cvut.cz</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.cvut.cz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.ignum.cz</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ignum.cz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirror.dkm.cz</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.dkm.cz/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Prague, Hlavni mesto Praha, Czech Republic (CZ)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>14.4667,50.0833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.cict.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.cict.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Toulouse, Midi-Pyrenees, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>1.4332,43.5995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.sunet.se</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.sunet.se/pub/Linux/distributions/debian//pub/Linux/distributions/debian/alpha wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Sweden (SE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>15.0000,62.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.rit.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.rit.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Rochester, New York, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-77.6156,43.1548,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: United Kingdom (GB)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.uk.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uk.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.ticklers.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ticklers.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.positive-internet.com</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.positive-internet.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>the.earth.li</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://the.earth.li/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ukdebian.mirror.anlx.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ukdebian.mirror.anlx.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ukdebian.mirror.anlx.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ukdebian.mirror.anlx.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.bytemark.co.uk</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.bytemark.co.uk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: United Kingdom (GB)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-2.0000,54.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Brazil (BR)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.br.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.br.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>download.unesp.br</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://download.unesp.br/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>linorg.usp.br</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://linorg.usp.br/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.pop-sc.rnp.br</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.pop-sc.rnp.br/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr />Location: Brazil (BR)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-55.0000,-10.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.udc.es</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.udc.es/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: A Coruna, Galicia, Spain (ES)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-8.4068,43.3666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.lecl.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.lecl.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <div>Location: Seoul, Seoul-t'ukpyolsi, Korea, Republic of (KR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>126.9783,37.5985,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: China (CN)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.163.com</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.163.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.163.com</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.163.com/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: China (CN)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>105.0000,35.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.uoi.gr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uoi.gr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <div>Location: Ioannina, Ioannina, Greece (GR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>20.8508,39.6675,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Sofia, Grad Sofiya, Bulgaria (BG)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.bg.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.bg.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.uni-sofia.bg</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.uni-sofia.bg/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Sofia, Grad Sofiya, Bulgaria (BG)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>23.3167,42.6833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.cica.es</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.cica.es/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <div>Location: Sevilla, Andalucia, Spain (ES)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-5.9761,37.3824,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.med.univ-tours.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.med.univ-tours.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Tours, Centre, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>0.7040,47.3948,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp5.gwdg.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp5.gwdg.de/pub/linux/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Gottingen, Niedersachsen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>9.9333,51.5333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Taipei, T'ai-pei, Taiwan (TW)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.tw.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.tw.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.csie.ntu.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.csie.ntu.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.twaren.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.twaren.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.isu.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.isu.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.nttu.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.nttu.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.ncnu.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ncnu.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.cse.yzu.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.cse.yzu.edu.tw/pub/Linux/debian/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.tku.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.tku.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>shadow.ind.ntou.edu.tw</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://shadow.ind.ntou.edu.tw/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Taipei, T'ai-pei, Taiwan (TW)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>121.5250,25.0392,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Netherlands (NL)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.debian.nl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.debian.nl/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.tiscali.nl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.tiscali.nl/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirror.cambrium.nl</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.cambrium.nl/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Netherlands (NL)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>5.7500,52.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.yz.yamagata-u.ac.jp</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.yz.yamagata-u.ac.jp/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Yamagata, Yamagata, Japan (JP)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>145.1000,43.2667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.by.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.by.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Belarus (BY)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>28.0000,53.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.ua.pt</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ua.pt/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Aveiro, Aveiro, Portugal (PT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-8.6455,40.6443,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mi.mirror.garr.it</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mi.mirror.garr.it/mirrors/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Milano, Umbria, Italy (IT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>12.6000,42.7833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.no.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.no.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Oslo, Oslo, Norway (NO)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>10.7500,59.9167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Geilenkirchen, Nordrhein-Westfalen, Germany (DE)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp2.de.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp2.de.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.informatik.rwth-aachen.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.informatik.rwth-aachen.de/ftp/pub/Linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 i386 powerpc sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.halifax.rwth-aachen.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.halifax.rwth-aachen.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Geilenkirchen, Nordrhein-Westfalen, Germany (DE)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>6.1167,50.9667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.ues.edu.sv</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ues.edu.sv/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: San Salvador, San Salvador, El Salvador (SV)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-89.2031,13.7086,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror carroll.aset.psu.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://carroll.aset.psu.edu/pub/linux/distributions/debian//pub/linux/distributions/debian/alpha wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: University Park, Pennsylvania, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-77.8614,40.8077,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror freedom.dicea.unifi.it</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://freedom.dicea.unifi.it/ftp/pub/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386</div>
+              <div>Location: Florence, Toscana, Italy (IT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>11.2500,43.7667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.fi.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.fi.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Tampere, Western Finland, Finland (FI)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>23.7500,61.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror gladiator.real-time.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://gladiator.real-time.com/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 i386 powerpc sparc</div>
+              <div>Location: Eden Prairie, Minnesota, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-93.4408,44.8558,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Germany (DE)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.freenet.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.freenet.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.freenet.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.freenet.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.netcologne.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.netcologne.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>artfiles.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://artfiles.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.intergenia.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.intergenia.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.ayous.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.ayous.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.morphium.info</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.morphium.info/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.unitedcolo.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.unitedcolo.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.1und1.de</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.1und1.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.de.leaseweb.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.de.leaseweb.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Germany (DE)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>9.0000,51.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.esat.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.esat.net/pub/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Dublin, Dublin, Ireland (IE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-6.2489,53.3331,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Paris, Ile-de-France, France (FR)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp2.fr.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp2.fr.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.proxad.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.proxad.net/mirrors/ftp.debian.org/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.lip6.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.lip6.fr/pub/linux/distributions/debian//pub/linux/distributions/debian/amd64 wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.ircam.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.ircam.fr/pub/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Paris, Ile-de-France, France (FR)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>2.3333,48.8667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.ec-m.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ec-m.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Marseille, Provence-Alpes-Cote d'Azur, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>5.3761,43.2854,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.optus.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.optus.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Ryde, New South Wales, Australia (AU)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>151.1000,-33.8167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.utexas.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.utexas.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Austin, Texas, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-97.7369,30.2961,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.dynamica.it</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.dynamica.it/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 hurd-i386 i386 ia64 powerpc</div>
+              <div>Location: Vimodrone, Lombardia, Italy (IT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>9.2667,45.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Madison, Wisconsin, United States (US)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.us.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.us.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirrors.tds.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirrors.tds.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.mycre.ws</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.mycre.ws/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Madison, Wisconsin, United States (US)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-89.5274,43.0737,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror mirror.sim.ul.pt</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.sim.ul.pt/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Lisbon, Lisboa, Portugal (PT)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-9.1333,38.7167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.tu-bs.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.tu-bs.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Braunschweig, Niedersachsen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>10.5333,52.2667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.mirrors.easynews.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirrors.easynews.com/linux/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <div>Location: Santa Monica, California, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-118.4925,34.0160,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp-mirror.internap.com</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp-mirror.internap.com/pub/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Atlanta, Georgia, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-84.3915,33.7516,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Italy (IT)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.it.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.it.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.fastweb.it</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.fastweb.it/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Italy (IT)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>12.8333,42.8333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.ee.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ee.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Estonia (EE)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>26.0000,59.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Israel (IL)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.co.il</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.co.il/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirror.isoc.org.il</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirror.isoc.org.il/pub/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386</div>
+              <hr />Location: Israel (IL)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>34.7500,31.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.lcs.mit.edu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.lcs.mit.edu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Cambridge, Massachusetts, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-71.1028,42.3646,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Montreal, Quebec, Canada (CA)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.ca.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.ca.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.savoirfairelinux.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.savoirfairelinux.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mirror.iweb.ca</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.iweb.ca/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.ec.as6453.net</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ec.as6453.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Montreal, Quebec, Canada (CA)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>-73.5833,45.5000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.mirrors.easynet.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirrors.easynet.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 arm armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Massy, Ile-de-France, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>2.2830,48.7269,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.osuosl.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.osuosl.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Klamath Falls, Oregon, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-121.7817,42.2249,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Primary mirror ftp.es.debian.org</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.es.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Spain (ES)</div>]]></description>
+      <styleUrl>#primary</styleUrl>
+      <Point>
+        <coordinates>-4.0000,40.0000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.u-strasbg.fr</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.u-strasbg.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <div>Location: Strasbourg, Alsace, France (FR)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>7.7874,48.6004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.mirror.root.lu</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.root.lu/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Luxembourg (LU)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>6.1667,49.7500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Austria (AT)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.mur.at</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mur.at/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.inode.at</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.inode.at/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.lagis.at</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.lagis.at/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Austria (AT)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>13.3333,47.3333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Redwood City, California, United States (US)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.nl.kernel.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.nl.kernel.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.se.kernel.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.se.kernel.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>mirrors.kernel.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://mirrors.kernel.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Redwood City, California, United States (US)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>-122.2110,37.4914,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.mirror.frontiernet.net</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.mirror.frontiernet.net/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Statesboro, Georgia, United States (US)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>-81.7832,32.4488,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Cachan, Ile-de-France, France (FR)</name>
+      <description><![CDATA[<div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>debian.ens-cachan.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.ens-cachan.fr/ftp/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>webb.ens-cachan.fr</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://webb.ens-cachan.fr/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Cachan, Ile-de-France, France (FR)]]></description>
+      <styleUrl>#secondarymulti</styleUrl>
+      <Point>
+        <coordinates>2.3366,48.7963,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror ftp.pwr.wroc.pl</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.pwr.wroc.pl/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Wroclaw, Dolnoslaskie, Poland (PL)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>17.0333,51.1000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Secondary mirror debian.uni-duisburg-essen.de</name>
+      <description><![CDATA[<div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://debian.uni-duisburg-essen.de/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <div>Location: Essen, Nordrhein-Westfalen, Germany (DE)</div>]]></description>
+      <styleUrl>#secondary</styleUrl>
+      <Point>
+        <coordinates>7.0167,51.4500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple mirrors: Slovakia (SK)</name>
+      <description><![CDATA[<div style='color: #cc0000; font-size: 120%; padding-bottom: 0.5em;'>ftp.sk.debian.org</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.sk.debian.org/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr /><div style='color: #0000cc; font-size: 120%; padding-bottom: 0.5em;'>ftp.antik.sk</div><div style='padding-top:0.5em; padding-bottom:0.5em;'>deb http://ftp.antik.sk/debian/ wheezy main</div>
+              <div style='font-size:80%; padding-bottom:0.5em;'>Architectures: alpha amd64 arm armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc</div>
+              <hr />Location: Slovakia (SK)]]></description>
+      <styleUrl>#mixed</styleUrl>
+      <Point>
+        <coordinates>19.5000,48.6667,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Folder>
+</Document>
+</kml>
